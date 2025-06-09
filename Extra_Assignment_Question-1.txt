@@ -1,0 +1,81 @@
+#print Statement
+print ('HOPE AI')
+
+#Buy inputs
+stringQuestion='Enter your institute name ?  :'
+stringAnswer =input (stringQuestion)
+print(f"{stringQuestion} {stringAnswer}")	
+
+#Buy inputs
+nameQuestion='Enter your name ?  :'
+nameAnswer =input (nameQuestion)
+print(f"{nameQuestion} {nameAnswer}")
+ageQuestion='Enter your age ?  :'
+ageAnswer =input (ageQuestion)
+print(f"{ageQuestion} {ageAnswer}")
+schoolQuestion='Enter your school name ?  :'
+schoolAnswer =input (schoolQuestion)
+print(f"{schoolQuestion} {schoolAnswer}")
+degreeQuestion='Enter your school name ?  :'
+degreeAnswer =input (degreeQuestion)
+print(f"{degreeQuestion} {degreeAnswer}")
+
+
+#Addition
+a=43
+b=34
+add=a+b
+print("a= 43")
+print("b= 34")
+print(f"add = {add}")
+
+#Subtraction
+a=43
+b=34
+Sub=a-b
+print("a= 43")
+print("b= 34")
+print(f"Sub = {Sub}")
+
+
+#Multiplication
+a=63
+b=97
+Mul=a*b
+print("a= 63")
+print("b= 97")
+print(f"Mul = {Mul}")
+
+
+#Division
+a=76
+b=31
+Div=a/b
+print("a= 76")
+print("b= 31")
+print(f"Float Div = {Div}")
+
+#Floor Division
+a=76
+b=31
+Div=a//b
+print("a= 76")
+print("b= 31")
+print(f"Floor Div = {Div}")
+
+#Modulo
+a=76
+b=31
+Modulo=a % b
+print("a= 76")
+print("b= 31")
+print(f"Modulo = {Modulo}")
+
+
+#Power
+a=4
+b=4
+Power=a**b
+print("a= 4")
+print("b= 4")
+print(f"Power = {Power}")
