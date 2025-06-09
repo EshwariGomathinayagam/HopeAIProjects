@@ -1,0 +1,7 @@
+from multiFunctionClass import multiFunctionClass
+
+multiFunctionClass.BMI()
+multiFunctionClass.divisibleByFive()
+multiFunctionClass.oddOReven()
+multiFunctionClass.peopleCategoryByAge()
+multiFunctionClass.positiveOrNegativeNumber()
