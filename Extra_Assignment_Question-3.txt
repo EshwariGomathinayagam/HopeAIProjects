@@ -1,0 +1,45 @@
+# print 'CORRECT' if i == 10
+i= int(input("i "))
+print (f"value: {i}")
+if i ==10:
+    print("Correct")
+	
+	
+# Check the password, using if and else
+pwd= (input("Enter the password "))
+print(f"Enter the password: {pwd}")
+if pwd =="HOPE@123":
+    print("Your password is correct")
+else:
+    print("Your password is incorrect")
+	
+
+# Category the people by their age like children, adult, citizen, senior citizen..
+age= int(input("Enter age: "))
+print(f"age {age}")
+if age < 18:
+    peopleCategory = "Children"
+elif age < 35: 
+    peopleCategory = "Adult"
+elif age < 59: 
+    peopleCategory = "Citizen"
+else:
+    peopleCategory = "Senior Citizen"
+print(peopleCategory)
+
+# Find whether given number is positive or negative
+num=int(input("Enter any number"))
+print(f"Enter any number : {num}")
+if num < 0:
+    print("No is negative")
+else:
+    print("No is positive")
+	
+	
+# Check whether the given number is divisible by 5
+num=int(input("Enter a number to check"))
+print(f"Enter a number to check : {num}")
+if num % 5 == 0:
+    print("No is divisible by 5")
+else:
+    print("No is not divisible by 5")
