@@ -1,0 +1,13 @@
+# print 0 to 20 by using range
+for num in range(0,20):
+    print (num)
+	
+	
+# print range 10 to 20
+for num in range (10,20):
+    print(num)
+	
+# Print number of items in the list by using 'len'
+Lists2 = [10, 20, 14, 55, 43, 87, 76]
+print("Number of items in the list2:")
+print(len(Lists2))
